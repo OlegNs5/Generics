@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03be9572-20e7-420d-bb01-d4b627652b55" name="Changes" comment="GenericMethod&lt;&gt;">
-      <change afterPath="$PROJECT_DIR$/src/ro/ctrln/java/GenericMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ro/ctrln/java/GenericMethodUsage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ro/ctrln/java/MessageProcesor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ro/ctrln/java/OverloadingGenerics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ro/ctrln/java/OverridingGenerics.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ro/ctrln/java/TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ro/ctrln/java/TestClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +37,11 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ro.ctrln.java" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.GenericMethodUsage">
     <configuration name="BuildingUsage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ro.ctrln.java.BuildingUsage" />
@@ -108,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667895428728</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="GenericMethod&lt;&gt;">
+      <created>1668051996144</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1668051996144</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
