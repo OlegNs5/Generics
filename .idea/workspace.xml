@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="03be9572-20e7-420d-bb01-d4b627652b55" name="Changes" comment="GenericClass and diamond operator&lt;&gt;">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generics.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ro/ctrln/java/Building.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ro/ctrln/java/BuildingUsage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ro/ctrln/java/TestClass.java" afterDir="false" />
+    <list default="true" id="03be9572-20e7-420d-bb01-d4b627652b55" name="Changes" comment="GenericMethod&lt;&gt;">
+      <change afterPath="$PROJECT_DIR$/src/ro/ctrln/java/GenericMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ro/ctrln/java/GenericMethodUsage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ro/ctrln/java/TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ro/ctrln/java/TestClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +37,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.BuildingUsage">
+  <component name="RunManager" selected="Application.GenericMethodUsage">
     <configuration name="BuildingUsage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ro.ctrln.java.BuildingUsage" />
       <module name="Generics" />
@@ -68,8 +64,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GenericMethodUsage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ro.ctrln.java.GenericMethodUsage" />
+      <module name="Generics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ro.ctrln.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GenericMethodUsage" />
         <item itemvalue="Application.BuildingUsage" />
         <item itemvalue="Application.GenericClass" />
       </list>
@@ -91,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667793851491</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="GenericMethod&lt;&gt;">
+      <created>1667895428728</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1667895428728</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -107,6 +124,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="GenericClass and diamond operator&lt;&gt;" />
-    <option name="LAST_COMMIT_MESSAGE" value="GenericClass and diamond operator&lt;&gt;" />
+    <MESSAGE value="GenericMethod&lt;&gt;" />
+    <option name="LAST_COMMIT_MESSAGE" value="GenericMethod&lt;&gt;" />
   </component>
 </project>
