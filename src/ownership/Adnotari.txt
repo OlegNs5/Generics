@@ -1,0 +1,23 @@
+Adnotari
+
+1. Scrie un program care simuleaza dreptul de proprietate asupra unor cladiri dintr-un cartier rezindential.
+
+2. Va fi creata o ierarhie de clase care mapeaza diferite imobile: blocuri, duplex-uri, case precum si apartamente,
+studio-uri si garsoniere.
+
+3. Pentru blocuri, duplexuri si case, proprietarii vor fi persoane juridice,iar pentru apartamente, studio-uri si
+garsoniere pot fi atit persoane juridice cit si persoare fizice.
+
+4. Imobililele si spatiile de locuit pot avea mai multi proprietari.
+
+5. Toate adnotarile aplicate pe ierarhie de pe clase trebuie sa apara in fisierele JavaDoc in momentul in care aceastea
+sunt generate.
+
+Pasii de implimentare:
+        -Definim classa Owner care are proprietari numele si tipul (persoana fizica sau juridica)
+        -Definim adnotarile:
+             -Owner care are valoarea unui obiect de tipul Owner si o marcam cu @Reapeable
+             -Owners care are ca valoare un vector de adotnari
+             -Adnotam clasele din ierarhie cu mai multe classe Owner.
+        -Adotnam toate Adnotarile  cu @Documented si repetetion (RetentionPolicy.RUNTIME)
+        -Generam JavaDoc.
