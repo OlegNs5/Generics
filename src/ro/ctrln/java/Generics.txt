@@ -1,0 +1,19 @@
+Generics
+
+1.Implementare pentru o lista de elemente folsind un vector in care sa retinem elementele.
+
+2.Operatiile pe care trebuie sa le suporte implenrarea:
+    a. Adaugare de element
+    b. Stergere de element de la o anumita pozitie
+    c. Aflarea marimii listei
+
+3.Lucruri de tinut cont la implementare:
+    a. Vectorul intern trebuie sa aiba o anumita marime initiala
+    b. Cind adaugam un element trebuie sa incrementam marimea listei cu 1 element
+    c. De asemenea, cind adaugam un element, daca marimea listei este egala cu marimea vectorului, trebuie sa redimensionam
+    vectorul intern  si sa ne asiguram ca de fiecare data cind adaugam un element avem loc in lista
+    d. Cind stergem un element de pe o pozitie trebuie sa testam si pozitia de pe care stergem ca aceasta sa fie
+    in intervalul 0 - vector.length
+    e. Tot la stergere, toate elementele trebuiest mutate cu o pozitie la stinga, iar marimea vectorului sa cada cu 1 element
+    f. Cind afisam marimea listei, trebuie sa tinem cont de elementele adaugate in lista si nu de marimea vectorului intern
+    in care tinem elementele
